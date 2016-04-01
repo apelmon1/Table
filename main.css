@@ -1,0 +1,63 @@
+#table {
+	border: 1px #4cabe3 solid;
+	position:fixed;
+	border-spacing:1px;
+	top:100px;
+	left:100px;
+}
+
+#table td {
+	background-color:#4cabe3;
+    height:50px;
+    width:50px;
+}
+
+#addRow {
+	background-color:#f1a418;
+}
+
+#deleteCell {
+	display:none;
+	background-color:#b20002;
+	border-bottom:3px white solid;
+}
+
+#addCell {
+	background-color:#f1a418;
+}
+#deleteRow {
+	display:none;
+	background-color:#b20002;
+	border-right:3px white solid;
+	
+}
+
+.verticalStrip{
+position:relative;
+top:15px;
+left:23px;
+height:14px;
+width:3px;
+background-color:white;
+border-radius:2px;
+}
+.horizontalStrip{
+position:relative;
+top:24px;
+left:17px;
+background-color:white;
+height:3px;
+width:15px;
+border-radius:2px;
+}
+.button {
+	position:fixed;
+	height:50px;
+	width:50px;
+	cursor: pointer;
+	transition-property: opacity;
+	transition-duration: 3s ;
+}
+.button:hover{
+	opacity:0.5;
+}
